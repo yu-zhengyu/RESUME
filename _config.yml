@@ -1,0 +1,35 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://yu-zhengyu.github.io/RESUME
+author: Yu Zheng
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /vitae/
+title: Yu Zhneg's Resume
+name: Yu Zhneg
+email: zhengyu.cmu@gmail.com
+email_full: mailto:zhengyu.cmu@gmail.com
+website: github.io/yu-zhengyu
+website_full: http://yu-zhengyu.github.io/RESUME
+github: yu-zhengyu
+twitter: twitter
+tel: +4123535957
+tel_full: tel:+14123535957
+google_maps: #
+address: 319 Morewood Ave 
+postcode: 15213
+city: Pittsburgh
+country: United State
+google_analytics: #
+
+# needed for travis-ci build
+exclude: [vendor]
